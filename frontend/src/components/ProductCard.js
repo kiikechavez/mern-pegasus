@@ -79,7 +79,7 @@ export function ProductCard({ product }) {
           </button>
         </div>
       </div>
-      <div className="relative overflow-hidden h-screen">
+      <div className="relative overflow-hidden h-80">
         {product.image && <img src={product.image.url} className="absolute h-full w-full object-fit" alt='products'/>}
       </div>
     </div>
